@@ -1,0 +1,15 @@
+# CMakeLists.txt for BayesianCoinToss project
+
+cmake_minimum_required(VERSION 3.10)
+
+project(BayesianCoinToss)
+
+# Set includes folder
+include_directories(includes)
+
+# Include cjson library
+#add_subdirectory(extrlibs/cjson)
+
+
+# Add your project's source files and targets here
+add_executable(bct src/main.c src/cJson.c)
