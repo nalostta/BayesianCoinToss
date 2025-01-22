@@ -59,7 +59,7 @@ int main()
 
     do
     {
-        printf("\n\nEnter 0 (for Tails) or 1 (for Heads), (or x to exit): ");
+        printf("\n\nEnter 0 (for Tails) or 1 (for Heads), (or ctrl+c to exit): ");
         scanf("%d", &user_input);
 
         Pd_biased *= (user_input)? biased_coin_pbb.P0:biased_coin_pbb.P1; // P0 is heads pbb
@@ -77,9 +77,9 @@ int main()
         confidence = Ppost_biased/(Ppost_biased + Ppost_unbiased);
 
 
-        printf("\n %.2f%% confident that the coin is biased towardsd heads\n", confidence*100);
+        printf("%.2f%% confident that the coin is biased (with PH=%.2f)\n", confidence*100, biased_coin_pbb.P0);
 
-    }while(user_input != 'x' && n++<n_rounds->valueint);
+    }while(user_input != 'x' && ++n<n_rounds->valueint);
 
 
     return 0;

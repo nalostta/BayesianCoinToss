@@ -10,6 +10,13 @@ Consider a coin which could either be biased, or unbiased.
  - It's job is to guess what is the likelihood that the coin is un/biased given a sequence of data points at every turn.
  - With every input, you give the outcome of the coin toss to the application program, and it updates it's estimation based on this new data.
 
+## How To Build
+ > mkdir build
+ > cd build
+ > cmake ..
+ > cmake --build . 
+ > ./bct 
+
 ## Experiment Setup
 ### init params:
  1. Biased coin probability map
