@@ -12,9 +12,13 @@ Consider a coin which could either be biased, or unbiased.
 
 ## How To Build
  > mkdir build
+ 
  > cd build
+ 
  > cmake ..
+ 
  > cmake --build . 
+ 
  > ./bct 
 
 ## Experiment Setup
