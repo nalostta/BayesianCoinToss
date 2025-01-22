@@ -1,3 +1,0 @@
-/Users/nalostta/Desktop/sdk/BayesianCoinToss/build/CMakeFiles/bct.dir
-/Users/nalostta/Desktop/sdk/BayesianCoinToss/build/CMakeFiles/edit_cache.dir
-/Users/nalostta/Desktop/sdk/BayesianCoinToss/build/CMakeFiles/rebuild_cache.dir

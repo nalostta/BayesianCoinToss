@@ -1,5 +1,6 @@
 {
     "GameName": "Is The Coin Biased?",
-    "BiasedCoinHeadsPbb": 0.7,
-    "init_confidence": 0.5
+    "BiasedCoinHeadsPbb": 0.9,
+    "init_confidence": 0.5,
+    "Number_of_Rounds": 20
 }
