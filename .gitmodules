@@ -1,0 +1,6 @@
+[submodule "extrlibs/gnuplot-cpp"]
+	path = extrlibs/gnuplot-cpp
+	url = https://github.com/martinruenz/gnuplot-cpp.git
+[submodule "extrlibs/gnuplot_i"]
+	path = extrlibs/gnuplot_i
+	url = https://github.com/longradix/gnuplot_i.git

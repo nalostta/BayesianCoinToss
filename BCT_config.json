@@ -1,6 +1,10 @@
 {
     "GameName": "Is The Coin Biased?",
     "BiasedCoinHeadsPbb": 0.8,
-    "init_confidence": 0.5,
-    "Number_of_Rounds": 10
+    "init_confidence": 0.99,
+    "GameRounds": 10,
+    "TestName": "BCT Test",
+    "TestRounds": 50,
+    "OutputFileName": "bct_test_plot.txt",
+    "TestInput": [1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0]
 }

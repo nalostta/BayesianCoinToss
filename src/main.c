@@ -33,7 +33,7 @@ int main()
     cJSON* gamename = cJSON_GetObjectItem(config, "gamename");
     cJSON* biased_coin_heads_pbb = cJSON_GetObjectItem(config, "BiasedCoinHeadsPbb");
     cJSON* init_confidence = cJSON_GetObjectItem(config, "init_confidence");
-    cJSON* n_rounds = cJSON_GetObjectItem(config, "Number_of_Rounds");
+    cJSON* n_rounds = cJSON_GetObjectItem(config, "GameRounds");
 
     free(config_str);
     fclose(cfg_reader);
@@ -42,6 +42,7 @@ int main()
     printf(" 1. Game is %.2f %% confident that the coin is biased\n", init_confidence->valuedouble*100);
     printf(" 2. Playing %d rounds\n", n_rounds->valueint);
     printf(" 3. For a biased coin, the probability of {Heads:%.2f, Tails:%.2f}\n", biased_coin_heads_pbb->valuedouble, (1-biased_coin_heads_pbb->valuedouble));
+    printf("\n====================\n");
 
     // Game Starts:
     // Get H or T (or x) from user
