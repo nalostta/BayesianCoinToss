@@ -16,10 +16,16 @@ Consider a coin which could either be biased, or unbiased.
  > cd build
  
  > cmake ..
- 
- > cmake --build . 
- 
+  
+ To play the game manually, run:
+ > cmake --build . --target bct
  > ./bct 
+
+ To run the game over a predetermined sequence of inputs and plot confidence on a graph, update TestInput in bct_config.json and build test app:
+ > cmake --build . --target test
+ > ./test 
+
+ Note: You will need gnuplot for this.
 
 ## Experiment Setup
 ### init params:
